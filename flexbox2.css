@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Times New Roman", serif; }
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: khaki;
+    padding: 10px;
+    height: 45px;
+}
+
+main {
+    display: flex;
+    height: 165px;
+}
+
+article { flex: 1; padding: 10px; }
+aside   { width: 100px; background-color: pink; padding: 10px; }
+nav     { width: 70px; background-color: #00dcc8; padding: 10px; }

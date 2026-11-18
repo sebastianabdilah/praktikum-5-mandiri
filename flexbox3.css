@@ -1,0 +1,15 @@
+.baris {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.item {
+    flex: 1;
+    height: 30px;
+    background-color: #e0e0e0;
+    border: 3px solid #222;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+}

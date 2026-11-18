@@ -1,0 +1,58 @@
+.wrapper {
+    width: 700px;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+.wrapper div {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+    background-color: #f5e942;
+    float: left;
+}
+
+.header {
+    width: 570px;
+    height: 40px;
+    background-color: #ff6624;
+    float: right;
+}
+
+.kiri {
+    width: 100px;
+    height: 380px;
+    background-color: #aedf91;
+    float: left;
+    margin-top: 10px;
+}
+
+.tengah {
+    width: 360px;
+    height: 380px;
+    background-color: #d0d5d9;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+.kanan {
+    width: 120px;
+    height: 380px;
+    background-color: #4dd8fb;
+    float: right;
+    margin-top: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: #1565f5;
+    clear: both;
+    margin-top: 10px;
+}

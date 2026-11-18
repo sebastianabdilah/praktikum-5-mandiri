@@ -1,0 +1,32 @@
+.wrapper {
+    width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.header {
+    height: 60px;
+    background-color: #aedf91;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.kiri1, .kiri2 {
+    width: 120px;
+    height: 110px;
+    background-color: #f5e942;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.kanan1, .kanan2 {
+    width: 440px;
+    height: 110px;
+    border: 1px solid black;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.kanan1 { background-color: #ff6624; }
+.kanan2 { background-color: #4dd8fb; }

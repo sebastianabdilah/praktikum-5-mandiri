@@ -1,0 +1,56 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: white; }
+
+.container {
+    width: 550px;
+    height: 260px;
+    margin: 20px auto;
+    background-color: #ffb3b3;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+header, footer {
+    background-color: #99d5cc;
+    text-align: center;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.tengah {
+    flex: 1;
+    display: flex;
+    gap: 8px;
+}
+
+aside {
+    width: 130px;
+    background-color: #62b5b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    flex: 1;
+    background-color: #ff7b7b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px;
+}
+
+.gambar { display: flex; gap: 8px; margin-top: 10px; }
+
+.img {
+    width: 70px;
+    height: 45px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}

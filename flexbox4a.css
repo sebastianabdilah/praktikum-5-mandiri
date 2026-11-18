@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Times New Roman", serif; }
+
+.container {
+    display: flex;
+    width: 550px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+nav {
+    width: 90px;
+    background-color: pink;
+    padding: 10px;
+}
+
+.kanan {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: khaki;
+    padding: 10px;
+    height: 40px;
+}
+
+.isi { flex: 1; display: flex; }
+article { flex: 1; padding: 10px; }
+aside   { width: 90px; background-color: aqua; padding: 10px; }
